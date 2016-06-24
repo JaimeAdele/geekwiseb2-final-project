@@ -132,6 +132,7 @@ p{
 
 .banner-content{
   margin-top: 70px;
+  padding-left: 30px;
 }
 
 #banner h1{
@@ -271,11 +272,24 @@ p{
   padding-top: 15px;
 }
 
-#footer h6{
+#footer h5{
   color: #fff;
   text-transform: uppercase;
   margin-top: 0;
   padding-bottom: 15px;
+}
+
+.contact-info p{
+  font-size: 10pt;
+}
+
+.contact-info a{
+  color: #fff;
+}
+
+.copyright-text{
+  clear: both;
+  padding-top: 45px;
 }
 
 .sm-icons{
@@ -304,6 +318,11 @@ p{
 .icon i{
   color: #0ACEA8;
   padding: 8px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 .icon:hover{
@@ -312,11 +331,6 @@ p{
 
 .icon i:hover{
   color: #fff;
-}
-
-.copyright-text{
-  clear: both;
-  padding-top: 15px;
 }
 
 
@@ -431,5 +445,10 @@ p{
 
     .banner-content{
       text-align: center;
+      padding-left: 10px;
+    }
+
+    .copyright-text{
+      padding-top: 25px;
     }
   }
